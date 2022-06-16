@@ -1,0 +1,112 @@
+html{
+	color: #999999;
+}
+
+#hello{
+	padding-left: 4em;
+	margin-top: 2em;
+	font-size: 40px;
+	display: inline-flex;
+}
+.this{
+	text-align: center;
+	font-size: 60px;
+	padding-right: 4em;
+}
+#name{
+	font-display: !important;
+	font-size: 50px;
+	color:  lightyellow;
+	text-align: right;
+	margin-top: 2em;
+	margin-right: 1em;
+}
+
+
+
+.wrapper{
+  display: flex;
+}
+.wrapper .dynamic-txts{
+  margin-left: 5px;
+  height: 80px;
+  margin-bottom: 5em;
+  line-height: 80px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 40px;
+  font-weight: 200;
+  position: relative;
+  top: 0;
+  animation: slide 24s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 150%;
+  width: 90%;
+  background: #101010;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+.sec3{
+	font-size: 20px;
+	color: white;
+	padding-left: 15px;
+	line-height: 35px;
+}
+
+
+#intro{
+	font-size: 35px;
+	text-decoration: underline;
+	color: mediumvioletred;
+	padding-left: 15px;
+}
+#myvid{
+	text-align: center;
+}
+.sec4{
+	font-size: 20px;
+	color: white;
+	padding-left: 15px;
+	line-height: 35px;
+}
+.apex{
+	font-size: 23px;
+}
+h3{
+	font-size: 30px;
+	color: yellow;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+.mic{
+	text-align: center;
+}
+.bymmb{
+	color: skyblue;
+}
+
